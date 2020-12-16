@@ -1,0 +1,24 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+
+<https://github.com/vavramovski/foaf/new/main>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://github.com/vavramovski/foaf/new/main#me> ;
+  foaf:primaryTopic <https://github.com/vavramovski/foaf/new/main#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://github.com/vavramovski/foaf/new/main#me>
+  a foaf:Person ;
+  foaf:name "Viktor Avramovski" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Viktor" ;
+  foaf:family_name "Avramovski" ;
+  foaf:nick "Liki" ;
+  foaf:mbox_sha1sum "1e4324d046f1da319c1734e158df5a0c1954ad90" ;
+  foaf:phone <tel:+38978243731> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Jovan Velkovski" ;
+    foaf:mbox_sha1sum "c4548e3a3837e3e07f386b07ea7e1d7785f2e26b"
+  ] .
