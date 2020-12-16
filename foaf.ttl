@@ -1,14 +1,14 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ns0: <http://webns.net/mvcb/> .
 
-<https://github.com/vavramovski/foaf/new/main>
+<https://raw.githubusercontent.com/vavramovski/foaf/main/foaf.ttl>
   a foaf:PersonalProfileDocument ;
   foaf:maker <https://github.com/vavramovski/foaf/new/main#me> ;
   foaf:primaryTopic <https://github.com/vavramovski/foaf/new/main#me> ;
   ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
   ns0:errorReportsTo <mailto:leigh@ldodds.com> .
 
-<https://github.com/vavramovski/foaf/new/main#me>
+<https://raw.githubusercontent.com/vavramovski/foaf/main/foaf.ttl#me>
   a foaf:Person ;
   foaf:name "Viktor Avramovski" ;
   foaf:title "Mr" ;
