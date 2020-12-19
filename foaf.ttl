@@ -26,6 +26,6 @@
   ], [
     a foaf:Person ;
     foaf:name "Jana Nikolovska" ;
-    foaf:mbox_sha1sum "f3081233d2aef6cecbf34bb38f8c2d85454ea4ef" ;
+    foaf:mbox_sha1sum "4fdd4dd16f1bea78c19806b66eabec43eb123314" ;
     rdfs:seeAlso <https://raw.githubusercontent.com/jananikolovska/WBS/main/foaf.ttl>
   ] .
