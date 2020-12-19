@@ -1,14 +1,15 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<https://raw.githubusercontent.com/vavramovski/foaf/main/foaf.ttl>
+<https://github.com/vavramovski/foaf/new/main/foaf.ttl>
   a foaf:PersonalProfileDocument ;
-  foaf:maker <https://github.com/vavramovski/foaf/new/main#me> ;
-  foaf:primaryTopic <https://github.com/vavramovski/foaf/new/main#me> ;
+  foaf:maker <https://github.com/vavramovski/foaf/new/main/foaf.ttl#me> ;
+  foaf:primaryTopic <https://github.com/vavramovski/foaf/new/main/foaf.ttl#me> ;
   ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
   ns0:errorReportsTo <mailto:leigh@ldodds.com> .
 
-<https://raw.githubusercontent.com/vavramovski/foaf/main/foaf.ttl#me>
+<https://github.com/vavramovski/foaf/new/main/foaf.ttl#me>
   a foaf:Person ;
   foaf:name "Viktor Avramovski" ;
   foaf:title "Mr" ;
@@ -19,6 +20,12 @@
   foaf:phone <tel:+38978243731> ;
   foaf:knows [
     a foaf:Person ;
-    foaf:name "Jovan Velkovski" ;
-    foaf:mbox_sha1sum "c4548e3a3837e3e07f386b07ea7e1d7785f2e26b"
+    foaf:name "Andrej Milovanovikj" ;
+    foaf:mbox_sha1sum "c834aa9da0618ed3b23c276b54538421a5653f63" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/amilovanovikj/FOAF/master/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Jana Nikolovska" ;
+    foaf:mbox_sha1sum "f3081233d2aef6cecbf34bb38f8c2d85454ea4ef" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/jananikolovska/WBS/main/foaf.ttl>
   ] .
